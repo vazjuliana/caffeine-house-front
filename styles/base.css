@@ -1,0 +1,140 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+#banner-principal {
+    background-image: url("../assets/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position-y: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.slogan {
+    font-size: 50px;
+    display: inline-flex;
+    align-content: center;
+    text-shadow: 1px 1px 1px black;
+    margin: 100px 50px;
+}
+
+.logo {
+    width: 200px;
+    position: absolute;
+    left: 63%;
+    top: 50px;
+}
+
+#footer {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url("../assets/footer.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100%;
+    background-position-y: 20%;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.footer-logo {
+    width: 100px;
+    margin: 0px auto;
+    display: block;
+}
+
+#footer .content {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#footer .content-box {
+    background-color: rgb(255, 255, 255, 0.2);
+    padding: 30px;
+    width: 40%;
+    height: 300px;
+    margin: 10px 10px;
+}
+
+.social-media-box {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.social-media-box .icon {
+    margin: 5px 10px;
+    float: left;
+}
+
+.social-media-box .icon img {
+    width: 40px;
+}
+
+#footer .bottom-row {
+    background-color: rgb(255, 255, 255, 0.2);
+    padding: 30px;
+    width: 85%;
+}
+
+.copyright {
+    text-align: center;
+    font-style: italic;
+    text-shadow: 1px 1px 1px black;
+}
+
+#site-map ul {
+    list-style-type: none;
+    padding: 0;
+    display: block;
+    margin-left: 30px;
+}
+
+#site-map li{
+    height: 54px;
+    padding-left: 44px;
+    padding-top: 3px;
+    filter: invert(1);
+}
+
+#site-map li a {
+    text-decoration: none;
+    vertical-align: -webkit-baseline-middle;
+    color: black;
+}
+
+#site-map .icon-home {
+    background: url("../assets/home.png") no-repeat left top;
+}
+
+#site-map .icon-products {
+    background: url("../assets/coffee-bean.png") no-repeat left top;
+}
+
+#site-map .icon-about {
+    background: url("../assets/info.png") no-repeat left top;
+}
+
+#site-map .icon-contacts {
+    background: url("../assets/contact.png") no-repeat left top;
+}
+
+.payment-box {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.payment-box .icon {
+    margin: 5px 10px;
+    float: left;
+}
+
+.payment-box .icon img {
+    width: 40px;
+}
