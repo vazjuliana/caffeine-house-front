@@ -4,3 +4,43 @@
     background-color: white;
     height: 900px;
 }
+.produto {
+    width: 258px;
+    text-align: center;
+    margin: 32px;
+    float: left;
+}
+.prod-grid{
+    padding-top: 40px;
+    display: block;
+}
+.imagemDoProduto{
+    width:258px;
+    height: 258px;
+}
+.descricaoDoProduto {
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+}
+.preco {
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.comprar{
+    background-color:#9dd435;
+    font-weight: bold;
+    color: white;
+    width: 180px;
+    height: 30px;
+    font-size: 17px;
+    border: none;
+	border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.comprar:hover{
+    background-color:#cae692;
+}
+
