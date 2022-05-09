@@ -7,6 +7,15 @@ You will need install
 * docker-compose
 * git client
 
+## If you already have the project setUp
+
+```bash
+docker-compose up -d
+```
+```bash
+docker-compose exec front service nginx start
+```
+
 ## How to start the project
 
 after clone the repository
