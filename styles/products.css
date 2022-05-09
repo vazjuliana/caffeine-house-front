@@ -1,6 +1,55 @@
 #content {
+    display: flex;
+    text-decoration: none;
     width: 80%;
     margin: 20px auto;
     background-color: white;
     height: 900px;
+    color: black;
+   
+    
+}
+
+
+.prod-flex {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   gap: 50px;
+   align-content: space-around;
+   list-style: none;
+   
+
+}
+.container{
+    margin: auto;
+    margin-top: 60px;
+
+   
+}
+
+.container:hover{
+    background-color: rgb(212, 210, 210); 
+    cursor: pointer;
+    transition: 2s ease;
+
+}
+.produto {
+    display: flex;
+    max-height: 225px;
+    max-width: 225px;
+    justify-content: center;
+    height: 410px;
+   
+}
+
+.descricao{
+   text-align: center;
+}
+.preco{
+    text-align: center;
+}
+
+.descricao:hover{
+    transform: scale(1.1);
 }
