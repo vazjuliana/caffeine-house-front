@@ -1,15 +1,11 @@
 #content {
     display: flex;
     text-decoration: none;
-    width: 80%;
-    margin: 20px auto;
+    widows: 20%;
+    margin:0 auto;
     background-color: white;
-    height: 900px;
     color: black;
-   
-    
 }
-
 
 .prod-flex {
    display: flex;
@@ -18,6 +14,7 @@
    gap: 50px;
    align-content: space-around;
    list-style: none;
+   min-height: 300px;
    
 
 }
@@ -38,7 +35,7 @@
     display: flex;
     max-height: 225px;
     max-width: 225px;
-    justify-content: center;
+    margin: 0 auto;
     height: 410px;
    
 }
