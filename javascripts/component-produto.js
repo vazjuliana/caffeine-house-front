@@ -1,13 +1,3 @@
-/*const componentProduto = document.createElement("componentProduto");
-
-componentProduto.innerHTML = '<li class="container">' +
-'<img class="produto" src=' +'http://localhost:8080' +resp.data[i].photo+'>'+
-'<h3 class="descricao"><a>'+resp.data[i].name+'</a></h3>'+
-'<p class="preco">'+'R$'+resp.data[i].price+ '</p>'+
-'</li>';
-
-class */
-
 class componentProduto extends HTMLElement{
     constructor(){
         super()
@@ -53,6 +43,10 @@ class componentProduto extends HTMLElement{
         this.shadowRoot.querySelector('.preco').innerText= preco
     
     }
+
+    connectedCallback(){
+        this.bind();
+      }
 
    styles() {
         const style = document.createElement('style')
